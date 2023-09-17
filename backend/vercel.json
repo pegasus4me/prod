@@ -1,14 +1,1 @@
 
-{
-   "version": 2,
-   "name": "orion_backend",
-   "builds": [
-      { "src": "", "use": "@vercel/node" }
-   ],
-   "routes": [
-      { 
-        "src": "/(.*)",
-        "dest": "/"
-      }
-   ]
-}
